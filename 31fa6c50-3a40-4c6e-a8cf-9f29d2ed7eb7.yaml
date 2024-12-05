@@ -14,8 +14,8 @@
   schedules: []
   sequence:
     commands:
-    - description: Step is wrong
-      exec: echo "Step is wrong"
+    - description: Step is correct
+      exec: echo "Step is correct"
     keepgoing: false
     strategy: node-first
 
