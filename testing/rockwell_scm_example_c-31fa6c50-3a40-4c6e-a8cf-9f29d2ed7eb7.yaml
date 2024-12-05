@@ -1,0 +1,22 @@
+- defaultTab: nodes
+  description: Testing SCM
+  executionEnabled: true
+  group: testing
+  loglevel: INFO
+  name: rockwell_scm_example_c
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  runnerSelector:
+    filter: '0923204'
+    runnerFilterMode: TAGS
+    runnerFilterType: TAG_FILTER_AND
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - description: Step is wrong
+      exec: echo "Step is wrong"
+    keepgoing: false
+    strategy: node-first
+
