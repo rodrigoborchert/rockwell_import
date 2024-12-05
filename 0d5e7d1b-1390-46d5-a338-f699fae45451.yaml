@@ -15,8 +15,8 @@
   schedules: []
   sequence:
     commands:
-    - description: Step is wrong
-      exec: echo "Step is wrong"
+    - description: Step is right
+      exec: echo "Step is right"
     keepgoing: false
     strategy: node-first
   uuid: 0d5e7d1b-1390-46d5-a338-f699fae45451
